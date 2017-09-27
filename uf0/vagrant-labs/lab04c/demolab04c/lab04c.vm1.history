@@ -1,0 +1,10 @@
+    1  route -n
+    2  ping 192.168.10.2
+    3  ip a
+    4  route del default 
+    5  sudo route del default 
+    6  sudo route add default gw 192.168.10.2
+    7  ping 192.168.10.2
+    8  ping 192.168.20.2
+    9  history
+   10  history > /vagrant/lab04c.vm1.history
