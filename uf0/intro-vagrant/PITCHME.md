@@ -19,7 +19,6 @@
 # Producte sólid
 
 ## [vagrant](www.vagrantup.com)
-## www.vagrantup.com
 ## permet crear entorns de proves reproduibles
 ## suporta diferents mecanismes de vistualització
 
