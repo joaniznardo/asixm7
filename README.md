@@ -4,7 +4,8 @@ materials pel mòdul de planificació i administració de xarxes
 A la uf0 trobarem el punt de partida:
 - introducció a vagrant - ...o com reproduir entorns de desenvolupament/proves/producció amb una instrucció: vagrant up
 
-[breu intro](uf0/intro-joan-vagrant.md) - (nota: primera sessió de classe)
+  [breu intro](uf0/intro-vagrant/intro-joan-vagrant.md) - (nota: primera sessió de classe)
+  [breu intro](https://gitpitch.com/joaniznardor/smxm7/branch?p=uf0/intro-vagrant/PITCHME.md) - (presentació)
   - laboratoris de màquines virtuals
     - [lab01](uf0/vagrant-labs/lab01) primer Vagrantfile
     - [lab02](uf0/vagrant-labs/lab02) millores sobre l'original
