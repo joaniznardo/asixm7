@@ -5,7 +5,7 @@ materials per la UF1
 [calculadora ip online](http://jodies.de/ipcalc)
 
 ## PF (preguntes freqüents) (a.k.a preguntes de _*control*_)
-[F.A.Q.](preguntes-freqüets.md)
+[F.A.Q.](preguntes-freqüents.md)
 ## animació interactiva d'explicació del model OSI / TCP/IP
 [animació](https://sites.google.com/site/tcpipanimation/home)
 
