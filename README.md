@@ -1,6 +1,9 @@
 # asixm7
 materials pel mòdul de planificació i administració de xarxes!
 
+materials en pdf
+[ouc xarxes](http://hdl.handle.net/10609/53841) 
+
 A la uf0 trobarem el punt de partida:
 - introducció a vagrant - ...o com reproduir entorns de desenvolupament/proves/producció amb una instrucció: vagrant up
 
@@ -21,3 +24,6 @@ A la uf0 trobarem el punt de partida:
   - [bitbucket](https://bitbucket.org/product) - genial per petits grups de treball - ? algú ha dit pràctiques en equip? :)
 - introducció a vi(m) - ...o com estalviar temps en l'edició de textos
   - [cheatsheet completa](http://www.c50k.com/vim)
+
+- a la uf1 comencem matèria!! :)
+  - [uf1](uf1/README.md) índex UF1
