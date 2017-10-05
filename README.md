@@ -1,8 +1,11 @@
 # asixm7
 materials pel mòdul de planificació i administració de xarxes!
 
-materials en pdf
+## materials en pdf
 [ouc xarxes](http://hdl.handle.net/10609/53841) 
+
+## seguiment de les sessions
+[que hem fet cada dia](sessions/README.md)
 
 A la uf0 trobarem el punt de partida:
 - introducció a vagrant - ...o com reproduir entorns de desenvolupament/proves/producció amb una instrucció: vagrant up
