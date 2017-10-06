@@ -21,6 +21,7 @@ A la uf0 trobarem el punt de partida:
     - [lab04](uf0/vagrant-labs/lab04) exercici simple d'encaminament
     - [lab04b](uf0/vagrant-labs/lab04b) exercici simple d'encaminament resolt!! (des del propi Vagrantfile se configura)
     - [lab05](uf0/vagrant-labs/lab05) exercici (gairebé tan) simple d'encaminament (...com el lab04: per assegurar que tenim clars els conceptes)
+    - [lab07](uf0/vagrant-labs/lab07) configuració manual ip
 - introducció a git - ...o com oblidar-se de totes les versions de fitxers escampades a tot arreu
   - [breu intro a git](http://rogerdudler.github.io/git-guide/index.es.html) 
   - [resum gràfic](https://ndpsoftware.com/git-cheatsheet.html#loc=;) - la meua preferida - inclou una adaptació prou correcta al espanyol
