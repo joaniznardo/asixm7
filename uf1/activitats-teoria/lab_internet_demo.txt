@@ -1,0 +1,99 @@
+## https://www.youtube.com/watch?v=C6sUesMysfQ - main
+## !!!! revisar la connexió dels dispositius !!!
+## https://www.youtube.com/watch?v=EojRT0hrJJU - follow up
+
+
+## revisar com estant connectats els patch
+## deteminar pq els sitch no reparteixen ip
+## determinar que cal configurar als switch
+
+? 
+#cloud dsl
+#eth4 cable
+
+
+
+#router isp - 2811
+
+enable
+config t
+int fa 0/0
+ip add 1.1.1.1 255.255.255.0
+no shut
+## no propagar les dades internes cap a fora
+no cdp enable
+exit
+hostname ISP
+## configurar vlan xl switch
+int vlan 10
+ip add 10.10.10.1 255.255.255.0
+do sh ip int brief
+int range fa 1/0 - 15
+switchport access vlan 10 
+no shut
+end
+ 
+ 
+# server
+## com que no se connecta a cap switch habilitem spanning-tree portfast
+config t
+int range fa 1/0 - 15
+spanning-tree portfast
+end
+
+## configurar ip i gw
+## configurar server 
+
+
+# router (...continua)
+## habilitar dhcp server  
+config t
+ip dhcp pool  Internet_Users
+network 1.1.1.0 255.255.255.0 
+default-router 1.1.1.1
+dns-server 10.10.10.2
+ip dhcp excluded-address 1.1.1.1
+end
+wr
+
+## dns server:
+## configuració manual / gràfica de ip i passarel·la / servei dns
+
+
+#dsl modem
+# connectar telefon - cloud
+
+
+#router 1841
+# modul de 4 switch
+n
+enable
+config t
+int fa 0/0
+ip address dhcp
+no shut
+exit 
+hostname casa
+int vlan 20
+ip add 192.168.0.1 255.255.255.0
+int range fa 0/0/0 - 3 
+switchport access vlan 20
+spanning-tree portfast
+no shut
+exit
+ip dhcp pool users
+network 192.168.0.0 255.255.255.0
+default-router 192.168.0.1
+dns-server 10.10.10.2
+ip dhcp excluded-address 192.168.0.1
+# encara no veu el 
+access-list 1 permit 192.168.0.0 0.0.0.255
+ip nat inside source list 1 interface fa 0/0
+int vlan 20 
+ip nat inside
+int fa 0/0 
+ip nat outside
+end
+wr 
+
+show ip nat translations
