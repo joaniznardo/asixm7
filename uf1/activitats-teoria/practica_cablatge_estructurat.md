@@ -1,3 +1,6 @@
+# link per pujar tot el que teniu amb un zip
+## https://goo.gl/j7erZz
+
 - realitzar un exercici de cablatge estructurat:
 - una empresa dedicada al desenvolupament de programari:
 - mínim 30 llocs - max 50 repartits entre mínim 3 i max 6 grups de treball (cada grup de treball va en una sala diferent però un grup de treball pot estar en més d'una sala)
